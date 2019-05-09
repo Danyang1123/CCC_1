@@ -1,0 +1,564 @@
+lga_name, adm_canc_all_1_count, lga_code, ste_name, adm_dig_all_2_asr, adm_canc_all_2_asr, adm_ment_all_1_count, adm_dig_all_1_count, adm_ment_all_2_asr
+"Albury (C)",1333,10050,"nsw",3330.8,2556.4,731,1677,1503.2
+"Armidale Dumaresq (A)",508,10110,"nsw",4229.4,2062.1,272,1053,1124.6
+"Ashfield (A)",727,10150,"nsw",3127.0,1737.3,1257,1337,2755.6
+"Auburn (C)",1039,10200,"nsw",3457.2,1685.4,1258,2549,1527.9
+"Ballina (A)",1413,10250,"nsw",4924.2,2632.6,580,2269,1404.5
+"Balranald (A)",65,10300,"nsw",3535.1,2261.2,null,92,null
+"Bankstown (C)",3807,10350,"nsw",3393.2,2049.1,2599,6394,1380.6
+"Bathurst Regional (A)",998,10470,"nsw",3690.2,2499.3,548,1492,1383.8
+"Bega Valley (A)",1075,10550,"nsw",3706.4,2307.9,445,1447,1323.7
+"Bellingen (A)",357,10600,"nsw",4405.0,2159.6,144,632,1145.0
+"Berrigan (A)",380,10650,"nsw",4586.1,3112.2,179,457,2101.3
+"Blacktown (C)",4781,10750,"nsw",3516.9,1924.6,4937,10061,1628.8
+"Bland (A)",167,10800,"nsw",3969.4,2054.1,100,275,1639.4
+"Blayney (A)",204,10850,"nsw",4193.1,2476.9,111,320,1568.2
+"Blue Mountains (C)",1828,10900,"nsw",3468.7,2080.9,1638,2862,2114.2
+"Bogan (A)",57,10950,"nsw",3833.0,1730.2,null,121,null
+"Bombala (A)",59,11000,"nsw",4687.6,1794.1,null,132,null
+"Boorowa (A)",77,11050,"nsw",4555.1,2553.5,null,123,null
+"Botany Bay (C)",1014,11100,"nsw",3698.6,2448.4,829,1552,1918.5
+"Bourke (A)",null,11150,"nsw",4394.3,null,null,141,null
+"Brewarrina (A)",null,11200,"nsw",null,null,null,null,null
+"Broken Hill (C)",673,11250,"nsw",3999.6,2891.7,216,836,1118.7
+"Clarence Valley (A)",2004,11730,"nsw",4215.9,2885.5,604,2483,1175.1
+"Burwood (A)",555,11300,"nsw",3051.1,1626.8,633,1056,1762.1
+"Byron (A)",957,11350,"nsw",4180.8,2776.6,600,1369,1920.5
+"Cabonne (A)",296,11400,"nsw",4088.1,2113.6,195,555,1501.4
+"Camden (A)",1166,11450,"nsw",4346.3,2358.7,886,2408,1532.6
+"Campbelltown (C)",2628,11500,"nsw",3795.7,2059.7,2325,5389,1591.2
+"Canada Bay (A)",1551,11520,"nsw",3622.4,1899.2,2122,2962,2502.2
+"Canterbury (C)",2409,11550,"nsw",3339.0,1690.5,2214,4814,1508.4
+"Carrathool (A)",60,11600,"nsw",4361.0,2166.4,null,120,null
+"Central Darling (A)",73,11700,"nsw",3999.6,2891.7,null,90,null
+"Cessnock (C)",1437,11720,"nsw",3573.3,2647.9,606,1921,1157.9
+"Cobar (A)",93,11750,"nsw",3832.8,1730.3,null,197,null
+"Coffs Harbour (C)",1688,11800,"nsw",4127.9,1983.0,998,3165,1419.2
+"Conargo (A)",59,11860,"nsw",4196.2,2606.8,null,79,null
+"Coolamon (A)",126,12000,"nsw",5135.4,2666.4,null,231,null
+"Cooma-Monaro (A)",187,12050,"nsw",3333.1,1593.9,108,365,1035.8
+"Coonamble (A)",80,12150,"nsw",3834.9,1731.5,null,169,null
+"Cootamundra (A)",261,12200,"nsw",5476.9,2681.0,99,468,1286.1
+"Corowa Shire (A)",518,12300,"nsw",4586.1,3112.2,244,623,2101.3
+"Cowra (A)",397,12350,"nsw",3728.0,2371.7,240,532,1908.2
+"Deniliquin (A)",366,12500,"nsw",5991.4,3792.4,null,494,null
+"Dubbo (C)",827,12600,"nsw",3792.7,2070.0,315,1503,820.0
+"Dungog (A)",280,12700,"nsw",3482.9,2594.3,104,338,1183.7
+"Eurobodalla (A)",1279,12750,"nsw",5299.3,2200.0,703,2437,1855.0
+"Fairfield (C)",3242,12850,"nsw",3390.1,1742.2,1936,6560,992.7
+"Forbes (A)",270,12900,"nsw",4359.2,2296.5,155,453,1652.5
+"Gilgandra (A)",118,12950,"nsw",3963.2,2043.7,57,197,1315.4
+"Glen Innes Severn (A)",273,13010,"nsw",3974.2,2224.7,null,411,null
+"Gloucester (A)",203,13050,"nsw",3879.0,2663.3,74,242,1405.5
+"Gosford (C)",4779,13100,"nsw",3857.7,2351.5,4719,7030,2788.0
+"Goulburn Mulwaree (A)",730,13310,"nsw",3665.9,2167.0,427,1134,1469.3
+"Great Lakes (A)",1642,13320,"nsw",3837.0,2655.2,674,1789,1797.3
+"Greater Hume Shire (A)",313,13340,"nsw",3418.3,2626.5,125,374,1237.7
+"Greater Taree (C)",1777,13380,"nsw",3866.6,2642.5,776,2163,1614.5
+"Griffith (C)",567,13450,"nsw",4154.6,2181.2,248,1064,990.0
+"Gundagai (A)",130,13500,"nsw",5476.9,2681.0,null,234,null
+"Gunnedah (A)",380,13550,"nsw",4163.9,2601.9,null,555,null
+"Guyra (A)",116,13650,"nsw",4199.0,2071.7,null,210,null
+"Gwydir (A)",110,13660,"nsw",3605.7,1586.5,null,212,null
+"Harden (A)",115,13700,"nsw",4585.6,2566.3,null,185,null
+"Hawkesbury (C)",1412,13800,"nsw",4684.9,2410.5,1267,2921,2008.4
+"Hay (A)",84,13850,"nsw",3535.1,2261.2,null,119,null
+"Holroyd (C)",1971,13950,"nsw",3680.3,2156.5,2291,3658,2162.0
+"Hornsby (A)",3890,14000,"nsw",3683.5,2314.9,3821,6140,2322.4
+"Hunters Hill (A)",293,14100,"nsw",3740.4,1907.8,259,545,1843.2
+"Hurstville (C)",1903,14150,"nsw",3498.0,2184.0,1088,2957,1289.8
+"Inverell (A)",417,14200,"nsw",4408.1,2078.2,207,789,1279.4
+"Jerilderie (A)",64,14250,"nsw",4553.5,2988.9,null,82,null
+"Junee (A)",209,14300,"nsw",5472.9,2680.8,null,375,null
+"Kempsey (A)",721,14350,"nsw",4677.6,1930.5,448,1531,1546.0
+"Kiama (A)",615,14400,"nsw",4703.4,2254.7,343,1111,1629.0
+"Kogarah (C)",1349,14450,"nsw",3604.4,2140.5,687,2196,1133.6
+"Ku-ring-gai (A)",3353,14500,"nsw",3838.2,2539.2,2466,4689,2161.6
+"Narrandera (A)",137,15800,"nsw",4593.2,2028.7,null,290,null
+"Kyogle (A)",287,14550,"nsw",3550.7,2442.0,91,377,951.6
+"Lachlan (A)",191,14600,"nsw",4361.7,2299.2,110,320,1655.3
+"Lake Macquarie (C)",5535,14650,"nsw",3351.2,2363.9,4522,7140,2271.3
+"Lane Cove (A)",748,14700,"nsw",3345.9,2388.1,816,1090,2381.7
+"Leeton (A)",256,14750,"nsw",4574.7,2039.5,163,540,1486.9
+"Leichhardt (A)",1049,14800,"nsw",3560.5,2162.9,1384,1868,2395.6
+"Lismore (C)",1261,14850,"nsw",3560.2,2641.3,632,1637,1438.0
+"Lithgow (C)",582,14870,"nsw",4728.9,2239.0,354,1105,1657.5
+"Liverpool (C)",3033,14900,"nsw",3574.0,1995.8,2062,6203,1126.8
+"Liverpool Plains (A)",216,14920,"nsw",4059.8,2142.4,null,356,null
+"Lockhart (A)",90,14950,"nsw",5066.1,2663.7,null,165,null
+"Maitland (C)",1835,15050,"nsw",3638.3,2711.8,1204,2538,1723.1
+"Manly (A)",1212,15150,"nsw",3288.4,2920.7,1147,1388,2592.6
+"Marrickville (A)",1324,15200,"nsw",3078.6,1857.7,1930,2401,2206.3
+"Mid-Western Regional (A)",558,15270,"nsw",4257.7,2028.1,253,1075,1079.4
+"Moree Plains (A)",293,15300,"nsw",4285.9,2074.9,157,603,1145.7
+"Mosman (A)",854,15350,"nsw",3538.6,2683.9,747,1065,2537.0
+"Murray (A)",265,15500,"nsw",4196.2,2606.8,null,358,null
+"Murrumbidgee (A)",52,15550,"nsw",4375.5,2164.6,null,105,null
+"Muswellbrook (A)",276,15650,"nsw",4565.8,1898.9,162,728,980.2
+"Nambucca (A)",618,15700,"nsw",4283.0,2099.6,251,1008,1276.3
+"Narrabri (A)",310,15750,"nsw",4326.4,2198.8,206,597,1555.6
+"Barcoo (S)",null,30450,"qld",null,null,null,null,null
+"Narromine (A)",177,15850,"nsw",3963.2,2043.7,87,298,1315.4
+"Newcastle (C)",3954,15900,"nsw",3528.0,2449.7,3753,5634,2339.3
+"North Sydney (A)",1639,15950,"nsw",3249.7,2597.0,1867,2145,2545.2
+"Oberon (A)",152,16100,"nsw",3123.0,2416.7,null,180,null
+"Orange (C)",818,16150,"nsw",4144.5,1997.9,542,1658,1402.4
+"Palerang (A)",227,16180,"nsw",3067.0,1606.7,149,455,1008.7
+"Parkes (A)",329,16200,"nsw",4008.7,1907.4,185,634,1261.2
+"Parramatta (C)",3106,16250,"nsw",3321.4,1926.6,3684,5686,2046.9
+"Penrith (C)",3349,16350,"nsw",3799.0,2140.7,3681,6613,2034.3
+"Pittwater (A)",2090,16370,"nsw",3812.8,2935.4,1037,2489,1705.9
+"Port Macquarie-Hastings (A)",2338,16380,"nsw",4075.7,2147.1,1207,3622,1576.8
+"Port Stephens (A)",1755,16400,"nsw",3370.3,2097.4,1026,2509,1518.8
+"Queanbeyan (C)",608,16470,"nsw",2993.3,1698.7,439,1161,1081.0
+"Randwick (C)",3552,16550,"nsw",4008.3,2765.2,3764,5450,2578.9
+"Richmond Valley (A)",783,16610,"nsw",4049.9,2707.5,265,1017,1187.8
+"Rockdale (C)",2477,16650,"nsw",3395.5,2384.4,1220,3548,1124.3
+"Ryde (C)",2193,16700,"nsw",3452.4,2013.8,2291,3800,2013.8
+"Shellharbour (C)",1407,16900,"nsw",4504.4,2076.8,811,3013,1246.6
+"Shoalhaven (C)",2889,16950,"nsw",3925.4,2128.2,1299,4440,1318.8
+"Singleton (A)",547,17000,"nsw",4459.8,2688.2,204,1006,868.2
+"Snowy River (A)",116,17050,"nsw",2838.8,1330.7,76,241,940.1
+"Tamworth Regional (A)",1641,17310,"nsw",4169.1,2505.7,648,2550,1132.0
+"Strathfield (A)",548,17100,"nsw",3084.1,1723.8,713,1103,1807.9
+"Sutherland Shire (A)",6707,17150,"nsw",4150.1,2902.2,3011,9331,1362.4
+"Sydney (C)",3267,17200,"nsw",2951.1,2284.7,3977,5274,1796.0
+"Quilpie (S)",null,36150,"qld",4638.5,null,null,48,null
+"Temora (A)",206,17350,"nsw",5476.9,2681.0,null,369,null
+"Tenterfield (A)",215,17400,"nsw",3974.2,2224.7,null,323,null
+"The Hills Shire (A)",3716,17420,"nsw",3949.7,2164.1,4089,6985,2319.1
+"Tumbarumba (A)",192,17450,"nsw",9999.2,4195.3,null,399,null
+"Tumut Shire (A)",482,17500,"nsw",7055.5,3469.9,357,876,3133.4
+"Tweed (A)",3307,17550,"nsw",4476.5,2716.4,1473,4551,1638.9
+"Upper Hunter Shire (A)",483,17620,"nsw",4746.3,3021.5,169,716,1179.5
+"Upper Lachlan Shire (A)",165,17640,"nsw",3120.6,1705.3,75,266,989.0
+"Uralla (A)",134,17650,"nsw",3724.6,1842.9,null,251,null
+"Urana (A)",49,17700,"nsw",4587.7,2954.6,null,64,null
+"Wagga Wagga (C)",1589,17750,"nsw",5469.2,2663.2,651,3305,1089.7
+"Wakool (A)",146,17800,"nsw",4112.3,2565.6,null,198,null
+"Walcha (A)",80,17850,"nsw",4092.9,2050.6,null,143,null
+"Walgett (A)",113,17900,"nsw",4394.3,1485.6,142,317,2113.7
+"Warren (A)",56,17950,"nsw",3846.7,1751.6,null,116,null
+"Warringah (A)",4234,18000,"nsw",3658.0,2731.8,2952,5516,1955.1
+"Warrumbungle Shire (A)",254,18020,"nsw",3997.2,2036.6,122,435,1264.2
+"Waverley (A)",1948,18050,"nsw",4503.5,3166.1,1731,2968,2354.4
+"Weddin (A)",104,18100,"nsw",3970.1,2055.0,62,172,1640.8
+"Wellington (A)",204,18150,"nsw",3265.4,1902.4,122,316,1371.2
+"Wentworth (A)",189,18200,"nsw",3535.1,2261.2,null,266,null
+"Willoughby (C)",1545,18250,"nsw",3202.6,2264.7,1407,2225,1963.3
+"Wingecarribee (A)",1509,18350,"nsw",4747.6,2435.2,687,2488,1505.5
+"Wollondilly (A)",885,18400,"nsw",3918.1,2063.1,591,1745,1338.9
+"Wollongong (C)",4849,18450,"nsw",3776.2,2201.0,2715,7958,1322.3
+"Woollahra (A)",1948,18500,"nsw",4750.0,3327.5,1463,2719,2474.8
+"Wyong (A)",3539,18550,"nsw",3838.8,1953.9,2400,6296,1577.9
+"Yass Valley (A)",302,18710,"nsw",2793.9,1781.3,207,458,1315.1
+"Young (A)",410,18750,"nsw",4759.5,2638.3,175,656,1413.8
+"Unincorporated NSW",null,19399,"nsw",null,null,null,null,null
+"Alpine (S)",400,20110,"vic",3564.7,2387.2,null,505,null
+"Ararat (RC)",356,20260,"vic",4368.3,2328.2,null,573,null
+"Ballarat (C)",2579,20570,"vic",4272.6,2618.3,730,4143,769.8
+"Banyule (C)",4430,20660,"vic",5452.5,3392.4,1353,6864,1088.7
+"Bass Coast (S)",1317,20740,"vic",3911.9,3062.7,363,1401,1153.0
+"Baw Baw (S)",1355,20830,"vic",3011.4,2661.9,457,1419,1043.4
+"Bayside (C)",4197,20910,"vic",5167.1,3764.3,1476,5273,1541.9
+"Benalla (RC)",696,21010,"vic",4485.4,3717.1,null,710,null
+"Boroondara (C)",5604,21110,"vic",4841.6,3282.4,3132,8207,1852.3
+"Brimbank (C)",3710,21180,"vic",4111.9,2109.2,1809,7702,933.1
+"Buloke (S)",224,21270,"vic",4224.1,2399.2,null,321,null
+"Campaspe (S)",1551,21370,"vic",4605.9,3377.8,350,1871,954.2
+"Cardinia (S)",1927,21450,"vic",4544.6,2806.7,1158,3396,1510.4
+"Casey (C)",5296,21610,"vic",4611.6,2496.6,4073,11218,1576.8
+"Central Goldfields (S)",475,21670,"vic",4223.4,2537.9,null,640,null
+"Colac-Otway (S)",718,21750,"vic",4403.5,2817.6,145,1002,694.4
+"Corangamite (S)",576,21830,"vic",4224.2,2779.9,null,770,null
+"Darebin (C)",3905,21890,"vic",4072.3,2790.9,1773,5756,1185.1
+"East Gippsland (S)",1511,22110,"vic",3784.9,2422.5,415,1942,949.0
+"Frankston (C)",3747,22170,"vic",4906.4,2898.5,2644,6393,2017.6
+"Gannawarra (S)",363,22250,"vic",4224.2,2399.3,null,522,null
+"Glenelg (S)",602,22410,"vic",4619.4,2468.0,170,1011,846.0
+"Golden Plains (S)",637,22490,"vic",5205.1,3251.0,154,1027,807.7
+"Greater Bendigo (C)",3222,22620,"vic",4455.7,2897.9,1127,4738,1105.8
+"Greater Dandenong (C)",2962,22670,"vic",4261.2,2091.6,2864,6149,1936.5
+"Greater Geelong (C)",6449,22750,"vic",4407.2,2641.7,2221,10079,1012.7
+"Greater Shepparton (C)",1784,22830,"vic",4190.8,2736.0,532,2651,869.8
+"Hepburn (S)",430,22910,"vic",4285.9,2232.3,120,717,805.1
+"Hindmarsh (S)",253,22980,"vic",4224.6,2976.1,null,293,null
+"Hobsons Bay (C)",2233,23110,"vic",4412.2,2558.2,750,3887,826.7
+"Horsham (RC)",603,23190,"vic",4582.6,2641.5,107,955,547.2
+"Hume (C)",3848,23270,"vic",4460.7,2707.3,1620,7254,944.6
+"Indigo (S)",634,23350,"vic",4103.0,3343.8,142,699,915.4
+"Kingston (C)",4617,23430,"vic",4777.6,2869.8,2701,7360,1766.9
+"Knox (C)",4642,23670,"vic",5164.3,3055.1,2967,7969,1917.4
+"Latrobe (C)",1653,23810,"vic",4064.4,2056.1,956,3111,1309.4
+"Loddon (S)",323,23940,"vic",4075.0,2787.3,null,380,null
+"Macedon Ranges (S)",1193,24130,"vic",4638.0,2618.1,328,2065,772.2
+"Glen Eira (C)",4651,22310,"vic",4437.7,3327.4,2242,6137,1589.6
+"Manningham (C)",3853,24210,"vic",4656.5,2706.3,1527,5951,1280.6
+"Mansfield (S)",235,24250,"vic",4099.5,2285.4,87,374,1073.2
+"Maribyrnong (C)",1280,24330,"vic",3510.6,2063.0,716,2506,880.1
+"Maroondah (C)",3234,24410,"vic",4825.4,2963.2,2103,5207,1946.9
+"Melbourne (C)",1646,24600,"vic",3058.1,2460.3,1004,2918,838.9
+"Melton (S)",2049,24650,"vic",4695.0,2506.3,932,4765,830.2
+"Mildura (RC)",1406,24780,"vic",4409.1,2453.1,566,2379,1109.4
+"Mitchell (S)",1121,24850,"vic",4486.4,3040.0,258,1644,722.7
+"Moira (S)",1164,24900,"vic",4192.8,3004.5,235,1374,813.8
+"Monash (C)",5171,24970,"vic",4410.5,2641.2,3207,8288,1719.5
+"Moonee Valley (C)",3202,25060,"vic",4628.5,2724.8,1237,5300,1070.0
+"Moorabool (S)",807,25150,"vic",4791.9,2724.6,202,1422,699.5
+"Moreland (C)",3869,25250,"vic",4189.4,2583.0,1743,6390,1067.6
+"Mornington Peninsula (S)",6459,25340,"vic",4842.4,3286.6,2002,8156,1327.3
+"Mount Alexander (S)",617,25430,"vic",4324.8,2509.3,263,908,1412.7
+"Moyne (S)",512,25490,"vic",3780.3,2780.9,null,646,null
+"Murrindindi (S)",542,25620,"vic",5033.8,3279.6,111,751,807.6
+"Nillumbik (S)",1457,25710,"vic",4254.1,2551.2,444,2604,726.2
+"Northern Grampians (S)",358,25810,"vic",4407.0,2281.7,89,603,721.1
+"Port Phillip (C)",2406,25900,"vic",3965.8,2825.9,1567,3788,1407.8
+"Pyrenees (S)",258,25990,"vic",4337.2,2607.6,null,357,null
+"Queenscliffe (B)",117,26080,"vic",4542.9,3058.5,32,154,1055.9
+"South Gippsland (S)",971,26170,"vic",3148.4,2697.0,292,984,1049.2
+"Southern Grampians (S)",435,26260,"vic",4258.3,2109.6,null,770,null
+"Stonnington (C)",2897,26350,"vic",4164.8,2946.1,1740,4174,1627.9
+"Strathbogie (S)",493,26430,"vic",4884.1,3317.0,87,585,852.4
+"Surf Coast (S)",789,26490,"vic",3832.2,2746.4,146,1074,538.8
+"Swan Hill (RC)",589,26610,"vic",4241.6,2521.9,null,931,null
+"Towong (S)",223,26670,"vic",3642.9,2677.6,null,256,null
+"Wangaratta (RC)",915,26700,"vic",4368.3,2729.4,233,1295,862.9
+"Warrnambool (C)",1268,26730,"vic",4226.5,3629.9,289,1419,891.5
+"Wellington (S)",1100,26810,"vic",4391.8,2217.2,422,2006,992.3
+"West Wimmera (S)",185,26890,"vic",4223.4,2975.7,null,214,null
+"Whitehorse (C)",5042,26980,"vic",4363.4,2926.3,4003,7133,2484.1
+"Whittlesea (C)",3577,27070,"vic",4166.8,2489.2,1294,6612,771.2
+"Wodonga (RC)",1132,27170,"vic",4779.4,3367.7,301,1689,846.8
+"Wyndham (C)",2914,27260,"vic",4490.3,2391.0,1070,6896,617.8
+"Yarra (C)",1685,27350,"vic",3854.4,2576.5,964,2896,1093.8
+"Yarra Ranges (S)",4109,27450,"vic",4929.3,2782.1,1937,7353,1317.4
+"Yarriambiack (S)",308,27630,"vic",4221.5,2973.2,null,357,null
+"Unincorporated Vic",null,29399,"vic",null,null,null,null,null
+"Aurukun (S)",null,30250,"qld",null,null,null,null,null
+"Balonne (S)",107,30300,"qld",4854.6,2075.1,62,241,1311.0
+"Banana (S)",335,30370,"qld",4099.6,2342.7,168,601,1146.8
+"Barcaldine (R)",64,30410,"qld",4444.3,1894.0,null,147,null
+"Blackall Tambo (R)",44,30760,"qld",4444.3,1894.0,null,101,null
+"Boulia (S)",13,30900,"qld",null,2549.0,null,null,null
+"Brisbane (C)",35084,31000,"qld",4006.2,3598.0,34530,42486,3056.6
+"Bulloo (S)",11,31750,"qld",null,2549.0,null,null,null
+"Bundaberg (R)",4081,31820,"qld",4869.4,3457.2,958,5027,1037.7
+"Burdekin (S)",539,31900,"qld",4643.0,2587.9,null,889,null
+"Burke (S)",14,31950,"qld",null,2933.5,null,null,null
+"Cairns (R)",3427,32070,"qld",3713.6,2347.2,3539,5828,2194.7
+"Carpentaria (S)",55,32250,"qld",6526.1,2933.5,null,138,null
+"Cassowary Coast (R)",783,32260,"qld",3956.4,2334.2,412,1236,1411.9
+"Central Highlands (R)",520,32270,"qld",3807.8,2393.7,240,1040,794.3
+"Charters Towers (R)",343,32310,"qld",4292.3,2353.3,172,574,1394.5
+"Cherbourg (S)",40,32330,"qld",4527.1,2395.1,null,65,null
+"Cloncurry (S)",86,32450,"qld",6526.1,2933.5,null,216,null
+"Cook (S)",58,32500,"qld",3519.8,1694.1,null,143,null
+"Croydon (S)",null,32600,"qld",3519.8,null,null,11,null
+"Gold Coast (C)",14621,33430,"qld",4320.7,2734.8,7616,22883,1443.3
+"Goondiwindi (R)",240,33610,"qld",4854.6,2075.1,139,542,1311.0
+"Gympie (R)",1456,33620,"qld",4821.9,2474.0,454,2520,970.7
+"Diamantina (S)",null,32750,"qld",4638.5,null,null,14,null
+"Hinchinbrook (S)",326,33800,"qld",4292.3,2353.3,164,546,1394.5
+"Hope Vale (S)",null,33830,"qld",null,null,null,null,null
+"Ipswich (C)",4370,33960,"qld",3906.3,3041.4,3246,6312,1927.6
+"Doomadgee (S)",34,32770,"qld",6526.1,2933.5,null,86,null
+"Etheridge (S)",12,33100,"qld",null,1694.1,null,null,null
+"Flinders (S)",48,33200,"qld",6526.1,2933.5,null,120,null
+"Fraser Coast (R)",4342,33220,"qld",4498.6,3279.2,1134,5060,1156.8
+"Gladstone (R)",1639,33360,"qld",4198.3,3132.0,400,2465,650.6
+"Isaac (R)",277,33980,"qld",3503.3,1755.1,null,737,null
+"Kowanyama (S)",null,34420,"qld",null,null,null,null,null
+"Lockhart River (S)",null,34570,"qld",null,null,null,null,null
+"Lockyer Valley (R)",935,34580,"qld",3967.7,2523.2,418,1459,1186.4
+"Logan (C)",7516,34590,"qld",3867.3,3097.4,4555,10480,1629.8
+"Longreach (R)",84,34710,"qld",4444.3,1894.0,null,191,null
+"Mackay (R)",2806,34770,"qld",4403.1,2627.8,1118,5089,932.9
+"McKinlay (S)",null,34800,"qld",6526.1,null,null,70,null
+"Murweh (S)",128,35600,"qld",4638.5,2549.0,null,227,null
+"Napranum (S)",12,35670,"qld",null,1694.1,null,null,null
+"North Burnett (R)",391,35760,"qld",3995.0,2796.2,104,481,984.3
+"Northern Peninsula Area (R)",null,35780,"qld",3519.8,null,null,79,null
+"Redland (C)",5583,36250,"qld",4232.2,3675.6,3070,6273,2145.5
+"Richmond (S)",null,36300,"qld",null,null,null,null,null
+"Rockhampton (R)",3830,36360,"qld",4068.1,3306.6,924,4710,814.2
+"Scenic Rim (R)",1185,36510,"qld",4452.9,2753.9,597,1793,1579.8
+"Somerset (R)",761,36580,"qld",4271.8,2961.2,512,1034,2271.5
+"South Burnett (R)",891,36630,"qld",4539.5,2292.8,547,1579,1755.3
+"Southern Downs (R)",987,36660,"qld",3958.0,2289.1,545,1506,1605.8
+"Sunshine Coast (R)",12475,36710,"qld",4529.3,3223.1,4656,15813,1440.3
+"Tablelands (R)",1134,36810,"qld",4292.4,2105.9,817,2102,1828.4
+"Toowoomba (R)",4578,36910,"qld",4336.9,2816.5,2302,6854,1512.4
+"Torres (S)",45,36950,"qld",3519.8,1694.1,null,112,null
+"Torres Strait Island (R)",59,36960,"qld",3519.8,1694.1,null,147,null
+"Mapoon (S)",null,34830,"qld",null,null,null,null,null
+"Maranoa (R)",336,34860,"qld",4372.8,2486.1,134,592,1000.5
+"Moreton Bay (R)",11056,35010,"qld",4426.4,2862.7,8429,17330,2179.3
+"Mornington (S)",null,35250,"qld",6526.1,null,null,76,null
+"Mount Isa (C)",203,35300,"qld",3453.2,1304.2,null,686,null
+"Palm Island (S)",66,35790,"qld",4292.3,2353.3,null,110,null
+"Paroo (S)",51,35800,"qld",4638.5,2549.0,null,91,null
+"Pormpuraaw (S)",null,36070,"qld",null,null,null,null,null
+"Townsville (C)",4094,37010,"qld",4063.8,2674.3,1440,6997,796.0
+"Weipa (T)",46,37300,"qld",3519.8,1694.1,null,115,null
+"Western Downs (R)",858,37310,"qld",4499.6,2565.8,338,1485,1056.8
+"Whitsunday (R)",692,37340,"qld",3973.1,2104.0,382,1353,1101.9
+"Adelaide (C)",716,40070,"sa",3304.5,3743.7,534,729,2145.5
+"Adelaide Hills (DC)",1154,40120,"sa",3838.6,2662.5,250,1607,631.4
+"Alexandrina (DC)",846,40220,"sa",3332.2,2381.5,274,975,1088.2
+"Donnybrook-Balingup (S)",195,52870,"wa",4178.6,2813.6,84,258,1527.2
+"Winton (S)",37,37400,"qld",4638.5,2549.0,null,66,null
+"Campbelltown (C)",1636,40910,"sa",4327.7,2754.8,440,2328,855.7
+"Ceduna (DC)",85,41010,"sa",3095.2,2241.5,null,116,null
+"Charles Sturt (C)",3791,41060,"sa",3535.5,2957.2,1303,4157,1141.2
+"Woorabinda (S)",18,37550,"qld",3354.9,2253.2,null,31,null
+"Clare and Gilbert Valleys (DC)",293,41140,"sa",3597.4,2659.5,null,352,null
+"Mount Gambier (C)",573,44620,"sa",3793.1,2131.3,309,986,1231.9
+"Wujal Wujal (S)",null,37570,"qld",null,null,null,null,null
+"Yarrabah (S)",59,37600,"qld",4395.6,2147.6,null,115,null
+"Coober Pedy (DC)",33,41330,"sa",null,1668.2,null,null,null
+"Copper Coast (DC)",530,41560,"sa",3608.5,2754.2,235,572,1727.4
+"Elliston (DC)",32,41750,"sa",null,2387.5,null,null,null
+"Mount Remarkable (DC)",61,44830,"sa",2920.8,1421.0,null,103,null
+"Murray Bridge (RC)",614,45040,"sa",3216.2,2562.4,null,708,null
+"Harvey (S)",711,53990,"wa",4865.7,3077.0,232,1174,965.1
+"Irwin (S)",101,54060,"wa",3595.8,2198.6,null,150,null
+"Anangu Pitjantjatjara (AC)",null,40250,"sa",null,null,null,null,null
+"Barossa (DC)",660,40310,"sa",3903.7,2502.3,238,947,1048.0
+"Barunga West (DC)",83,40430,"sa",3192.2,2506.2,null,91,null
+"Berri and Barmera (DC)",349,40520,"sa",3748.6,2735.4,225,433,2117.5
+"Kangaroo Island (DC)",119,42750,"sa",2886.1,2017.2,null,150,null
+"Karoonda East Murray (DC)",38,43080,"sa",3416.0,2783.7,null,41,null
+"Orroroo/Carrieton (DC)",null,45400,"sa",null,null,null,null,null
+"Jerramungup (S)",null,54130,"wa",null,null,null,null,null
+"Joondalup (C)",4700,54170,"wa",4375.4,3039.5,1963,7129,1194.0
+"Kalamunda (S)",1529,54200,"wa",4255.4,2598.3,561,2498,972.1
+"Burnside (C)",1764,40700,"sa",3935.1,3185.9,367,1920,822.2
+"Cleve (DC)",53,41190,"sa",2630.9,2370.9,null,52,null
+"Flinders Ranges (DC)",54,41830,"sa",3919.3,2842.6,null,71,null
+"Franklin Harbour (DC)",39,41960,"sa",null,2370.9,11,null,842.0
+"Loxton Waikerie (DC)",294,43790,"sa",2468.5,2091.5,164,315,1388.2
+"Mallala (DC)",232,43920,"sa",3343.6,2758.0,55,290,640.0
+"Marion (C)",3227,44060,"sa",3652.3,3402.7,1054,3283,1189.0
+"Mid Murray (DC)",276,44210,"sa",2975.5,2490.7,null,289,null
+"Gawler (T)",621,42030,"sa",3910.0,2621.6,253,864,1201.0
+"Goyder (DC)",100,42110,"sa",3061.5,1769.3,null,149,null
+"Grant (DC)",139,42250,"sa",3260.2,1537.0,null,280,null
+"Mitcham (C)",2533,44340,"sa",3850.5,3378.9,782,2660,1191.6
+"Mount Barker (DC)",728,44550,"sa",3582.7,2456.8,311,1079,1044.3
+"Belmont (C)",932,50490,"wa",3967.4,2540.7,611,1526,1488.3
+"Beverley (S)",69,50560,"wa",3630.0,3563.8,null,64,null
+"Boddington (S)",58,50630,"wa",3350.4,2210.1,null,84,null
+"Holdfast Bay (C)",1791,42600,"sa",3949.9,3803.7,382,1624,992.1
+"Kimba (DC)",33,43220,"sa",null,2370.9,null,null,null
+"Kingston (DC)",68,43360,"sa",2944.2,2387.5,null,76,null
+"Light (RegC)",357,43650,"sa",3520.0,2490.6,125,505,890.8
+"Lower Eyre Peninsula (DC)",153,43710,"sa",2517.7,2529.3,null,138,null
+"Naracoorte and Lucindale (DC)",230,45090,"sa",2910.5,2423.3,null,261,null
+"Northern Areas (DC)",98,45120,"sa",3056.7,1622.3,null,159,null
+"Norwood Payneham St Peters (C)",1203,45290,"sa",3870.7,2980.1,429,1475,1122.6
+"Onkaparinga (C)",5248,45340,"sa",3306.6,3109.6,1817,5498,1115.4
+"Boyup Brook (S)",58,50770,"wa",4178.6,2813.6,null,77,null
+"Bridgetown-Greenbushes (S)",158,50840,"wa",4178.6,2813.6,68,209,1527.2
+"Brookton (S)",31,50910,"wa",null,2412.7,null,null,null
+"Broome (S)",375,50980,"wa",5570.3,3429.0,null,788,null
+"Broomehill-Tambellup (S)",null,51080,"wa",null,null,null,null,null
+"Bruce Rock (S)",31,51120,"wa",3532.8,2678.8,null,38,null
+"Bunbury (C)",962,51190,"wa",4601.0,2770.8,496,1563,1472.1
+"Peterborough (DC)",37,45540,"sa",2919.8,1419.7,null,62,null
+"Playford (C)",1780,45680,"sa",4017.8,2463.0,842,3115,1063.9
+"Port Adelaide Enfield (C)",3413,45890,"sa",3764.8,2837.2,1609,4501,1319.7
+"Port Augusta (C)",442,46090,"sa",3919.3,2842.6,null,588,null
+"Port Lincoln (C)",475,46300,"sa",2966.4,3081.4,null,441,null
+"Port Pirie City and Dists (M)",615,46450,"sa",3800.8,2898.8,307,725,1746.9
+"Busselton (S)",1333,51260,"wa",4473.5,3724.9,379,1504,1190.7
+"Cambridge (T)",951,51310,"wa",4450.7,3353.1,540,1238,1964.8
+"Canning (C)",1832,51330,"wa",3135.6,2144.4,928,2876,967.3
+"Capel (S)",325,51400,"wa",4674.5,2693.3,null,649,null
+"Carnamah (S)",15,51470,"wa",3595.8,2198.6,null,23,null
+"Carnarvon (S)",174,51540,"wa",3788.2,2825.9,null,231,null
+"Chapman Valley (S)",31,51610,"wa",3807.6,2342.2,10,49,806.5
+"Prospect (C)",553,46510,"sa",3484.5,2572.8,191,743,886.3
+"Renmark Paringa (DC)",431,46670,"sa",3466.7,3804.7,212,355,2228.5
+"Robe (DC)",42,46860,"sa",2944.2,2387.5,null,47,null
+"Roxby Downs (M)",34,46970,"sa",2476.5,1342.9,null,106,null
+"Salisbury (C)",3010,47140,"sa",3786.3,2437.2,1155,4925,864.8
+"Southern Mallee (DC)",77,47290,"sa",3463.1,2798.8,null,83,null
+"Streaky Bay (DC)",52,47490,"sa",3089.6,2242.7,null,70,null
+"Tatiara (DC)",195,47630,"sa",2944.2,2387.5,null,218,null
+"Tea Tree Gully (C)",2843,47700,"sa",4220.1,2721.4,763,4275,772.3
+"The Coorong (DC)",203,47800,"sa",3463.1,2798.8,null,220,null
+"Tumby Bay (DC)",79,47910,"sa",2393.6,2387.5,null,70,null
+"Kojonup (S)",46,54550,"wa",3333.5,2173.4,null,69,null
+"Kondinin (S)",27,54620,"wa",3350.4,2210.1,10,40,895.3
+"Koorda (S)",15,54690,"wa",3785.9,2867.8,null,18,null
+"Kulin (S)",22,54760,"wa",3350.4,2210.1,null,31,null
+"Unley (C)",1270,47980,"sa",3759.3,3124.0,493,1474,1259.1
+"Victor Harbor (C)",607,48050,"sa",3173.9,2374.5,204,602,1351.8
+"Wakefield (DC)",225,48130,"sa",3185.4,2502.8,null,246,null
+"Coolgardie (S)",78,51960,"wa",3580.7,2533.5,null,138,null
+"Coorow (S)",30,52030,"wa",3595.8,2198.6,10,45,885.4
+"Kwinana (T)",677,54830,"wa",4130.7,2629.3,345,1230,1072.1
+"Lake Grace (S)",36,54900,"wa",3350.4,2210.1,null,52,null
+"Walkerville (M)",194,48260,"sa",3484.5,2572.8,null,261,null
+"Wattle Range (DC)",371,48340,"sa",3451.6,2652.6,null,441,null
+"West Torrens (C)",1887,48410,"sa",3492.0,3038.5,561,2075,926.3
+"Whyalla (C)",558,48540,"sa",3143.9,2376.7,361,727,1587.1
+"Wudinna (DC)",38,48640,"sa",null,2386.7,11,null,870.6
+"Yankalilla (DC)",192,48750,"sa",3173.5,2374.5,65,191,1350.3
+"Yorke Peninsula (DC)",487,48830,"sa",3961.4,2603.1,172,574,1457.2
+"Unincorporated SA",93,49399,"sa",3355.9,1819.4,null,173,null
+"Albany (C)",1043,50080,"wa",4579.3,2541.3,669,1718,1915.2
+"Armadale (C)",1401,50210,"wa",3520.2,2303.1,761,2322,1119.5
+"Ashburton (S)",68,50250,"wa",2492.8,962.3,82,262,597.0
+"Augusta-Margaret River (S)",328,50280,"wa",3806.0,2588.7,154,481,1218.7
+"Bassendean (T)",464,50350,"wa",4656.5,2946.8,218,735,1356.4
+"Bayswater (C)",1872,50420,"wa",4071.3,2769.2,1197,2782,1685.0
+"Chittering (S)",171,51680,"wa",3951.6,2948.1,44,208,917.0
+"Dalwallinu (S)",44,52520,"wa",3785.9,2867.8,null,53,null
+"Claremont (T)",404,51750,"wa",4666.3,3625.2,200,494,1963.6
+"Cockburn (C)",2206,51820,"wa",4032.0,2615.4,1205,3755,1214.7
+"Collie (S)",268,51890,"wa",4457.1,2695.1,null,447,null
+"Dandaragan (S)",123,52590,"wa",3951.6,2948.1,null,150,null
+"Dardanup (S)",347,52660,"wa",4467.9,2750.8,64,576,497.1
+"Denmark (S)",184,52730,"wa",4107.4,2659.8,null,252,null
+"Derby-West Kimberley (S)",null,52800,"wa",null,null,null,null,null
+"Corrigin (S)",36,52100,"wa",3579.7,2412.7,null,45,null
+"Cottesloe (T)",338,52170,"wa",4619.9,3645.8,178,402,2130.0
+"Cranbrook (S)",null,52240,"wa",null,null,null,null,null
+"Cuballing (S)",23,52310,"wa",3350.4,2210.1,null,33,null
+"Cue (S)",null,52380,"wa",null,null,null,null,null
+"Cunderdin (S)",41,52450,"wa",3532.8,2678.8,null,51,null
+"Dowerin (S)",23,52940,"wa",3785.9,2867.8,null,29,null
+"Dumbleyung (S)",16,53010,"wa",null,2210.1,null,null,null
+"Dundas (S)",null,53080,"wa",null,null,null,null,null
+"East Fremantle (T)",242,53150,"wa",4133.9,2869.6,213,337,2598.9
+"East Pilbara (S)",79,53220,"wa",1517.3,963.4,null,189,null
+"Esperance (S)",442,53290,"wa",3914.5,3060.0,234,554,1702.5
+"Exmouth (S)",54,53360,"wa",3056.0,2004.0,null,81,null
+"Fremantle (C)",858,53430,"wa",4049.0,2615.0,612,1260,1987.7
+"Geraldton-Greenough (C)",1161,53520,"wa",4911.1,3206.4,436,1834,1170.0
+"Gingin (S)",181,53570,"wa",3951.6,2948.1,46,220,917.0
+"Gnowangerup (S)",null,53640,"wa",3333.5,null,null,44,null
+"Goomalling (S)",34,53710,"wa",3785.9,2867.8,null,42,null
+"Gosnells (C)",2603,53780,"wa",3933.4,2660.8,1121,4306,970.9
+"Halls Creek (S)",null,53920,"wa",5344.2,null,null,176,null
+"Kalgoorlie/Boulder (C)",554,54280,"wa",3460.8,2513.6,407,1001,1236.8
+"Leonora (S)",null,55040,"wa",null,null,null,null,null
+"Mandurah (C)",2952,55110,"wa",3951.1,3095.8,635,3325,830.4
+"Katanning (S)",138,54340,"wa",3904.2,3233.9,null,165,null
+"Kellerberrin (S)",37,54410,"wa",3532.8,2678.8,null,46,null
+"Kent (S)",12,54480,"wa",null,2173.4,null,null,null
+"Laverton (S)",12,54970,"wa",null,1274.0,null,null,null
+"Manjimup (S)",273,55180,"wa",3586.0,2448.7,130,367,1390.1
+"Meekatharra (S)",null,55250,"wa",null,null,null,null,null
+"Melville (C)",3038,55320,"wa",4147.8,2688.1,1224,4503,1156.9
+"Menzies (S)",null,55390,"wa",null,null,null,null,null
+"Merredin (S)",103,55460,"wa",3532.8,2678.8,null,128,null
+"Mingenew (S)",13,55530,"wa",null,2198.6,null,null,null
+"Mount Marshall (S)",15,55880,"wa",null,2678.8,null,null,null
+"Moora (S)",85,55600,"wa",3785.9,2867.8,null,104,null
+"Morawa (S)",25,55670,"wa",3595.8,2198.6,null,37,null
+"Narrogin (T)",116,56520,"wa",4197.9,2652.9,null,183,null
+"Nedlands (C)",824,56580,"wa",4824.0,3535.0,302,1116,1349.8
+"Mosman Park (T)",382,55740,"wa",4619.9,3645.8,201,454,2130.0
+"Mount Magnet (S)",11,55810,"wa",null,1903.1,null,null,null
+"Mukinbudin (S)",15,55950,"wa",null,2678.8,null,null,null
+"Mullewa (S)",20,56020,"wa",3595.8,2198.6,null,30,null
+"Mundaring (S)",1099,56090,"wa",4226.0,2711.1,393,1719,981.7
+"Ngaanyatjarraku (S)",null,56620,"wa",null,null,null,null,null
+"Murchison (S)",null,56160,"wa",null,null,null,null,null
+"Murray (S)",498,56230,"wa",3727.9,2540.8,119,643,769.5
+"Nannup (S)",38,56300,"wa",3586.0,2448.7,null,50,null
+"Northampton (S)",90,56790,"wa",3595.8,2198.6,null,134,null
+"Nungarin (S)",null,56860,"wa",null,null,null,null,null
+"Narembeen (S)",25,56370,"wa",3532.8,2678.8,10,32,1208.9
+"Narrogin (S)",null,56450,"wa",null,null,null,null,null
+"Yalgoo (S)",null,59350,"wa",2372.7,null,null,11,null
+"Northam (S)",465,56730,"wa",3630.0,3563.8,142,435,1296.1
+"Central Coast (M)",null,60810,"tas",null,null,null,null,null
+"Peppermint Grove (S)",68,56930,"wa",4619.9,3645.8,36,81,2130.0
+"Perenjori (S)",26,57000,"wa",3595.8,2198.6,null,38,null
+"Perth (C)",446,57080,"wa",3175.7,2847.8,610,607,2626.7
+"Pingelly (S)",39,57140,"wa",3579.7,2412.7,null,49,null
+"Plantagenet (S)",173,57210,"wa",4107.4,2659.8,null,237,null
+"Port Hedland (T)",188,57280,"wa",3961.2,1929.6,191,567,1087.6
+"Quairading (S)",33,57350,"wa",3532.8,2678.8,null,41,null
+"Ravensthorpe (S)",44,57420,"wa",2478.5,2011.7,null,56,null
+"Rockingham (C)",2504,57490,"wa",3996.4,2478.2,876,4347,782.1
+"Roebourne (S)",272,57560,"wa",2813.5,1765.4,329,642,1154.3
+"Central Highlands (M)",null,61010,"tas",null,null,null,null,null
+"Circular Head (M)",null,61210,"tas",null,null,null,null,null
+"Clarence (C)",null,61410,"tas",null,null,null,null,null
+"Derwent Valley (M)",null,61510,"tas",null,null,null,null,null
+"Devonport (C)",null,61610,"tas",null,null,null,null,null
+"Dorset (M)",null,61810,"tas",null,null,null,null,null
+"Flinders (M)",null,62010,"tas",null,null,null,null,null
+"George Town (M)",null,62210,"tas",null,null,null,null,null
+"Sandstone (S)",null,57630,"wa",null,null,null,null,null
+"Serpentine-Jarrahdale (S)",415,57700,"wa",3736.1,2463.5,146,702,749.1
+"Shark Bay (S)",null,57770,"wa",null,null,null,null,null
+"South Perth (C)",1205,57840,"wa",4108.1,2809.5,672,1854,1426.0
+"Stirling (C)",6723,57910,"wa",4131.5,3157.8,3879,8906,1734.4
+"Subiaco (C)",618,57980,"wa",4346.7,3342.0,513,828,2581.5
+"Swan (C)",2623,58050,"wa",4335.3,2678.7,1419,4801,1217.6
+"Tammin (S)",13,58190,"wa",3532.8,2678.8,null,16,null
+"Three Springs (S)",17,58260,"wa",3595.8,2198.6,null,26,null
+"Glamorgan/Spring Bay (M)",null,62410,"tas",null,null,null,null,null
+"Glenorchy (C)",null,62610,"tas",null,null,null,null,null
+"Hobart (C)",null,62810,"tas",null,null,null,null,null
+"Huon Valley (M)",null,63010,"tas",null,null,null,null,null
+"Kentish (M)",null,63210,"tas",null,null,null,null,null
+"Toodyay (S)",151,58330,"wa",3785.9,2867.8,null,185,null
+"King Island (M)",null,63410,"tas",null,null,null,null,null
+"Kingborough (M)",null,63610,"tas",null,null,null,null,null
+"Latrobe (M)",null,63810,"tas",null,null,null,null,null
+"Launceston (C)",null,64010,"tas",null,null,null,null,null
+"Meander Valley (M)",null,64210,"tas",null,null,null,null,null
+"Northern Midlands (M)",null,64610,"tas",null,null,null,null,null
+"Sorell (M)",null,64810,"tas",null,null,null,null,null
+"Southern Midlands (M)",null,65010,"tas",null,null,null,null,null
+"Tasman (M)",null,65210,"tas",null,null,null,null,null
+"Waratah/Wynyard (M)",null,65410,"tas",null,null,null,null,null
+"West Coast (M)",null,65610,"tas",null,null,null,null,null
+"West Tamar (M)",null,65810,"tas",null,null,null,null,null
+"Trayning (S)",11,58400,"wa",3532.8,2678.8,null,14,null
+"Upper Gascoyne (S)",null,58470,"wa",null,null,null,null,null
+"Victoria Park (T)",824,58510,"wa",3568.7,2765.5,464,1235,1175.6
+"Alice Springs (T)",null,70200,"nt",null,null,null,null,null
+"Victoria Plains (S)",31,58540,"wa",3785.9,2867.8,null,38,null
+"Litchfield (M)",null,72300,"nt",null,null,null,null,null
+"Vincent (T)",879,58570,"wa",3945.9,2997.7,781,1323,2028.4
+"Wagin (S)",49,58610,"wa",3350.4,2210.1,null,70,null
+"Wandering (S)",15,58680,"wa",null,2412.7,null,null,null
+"Wanneroo (C)",3420,58760,"wa",4286.7,2659.8,2049,6453,1266.2
+"Waroona (S)",129,58820,"wa",5242.3,3190.0,null,204,null
+"West Arthur (S)",23,58890,"wa",3350.4,2210.1,null,33,null
+"Westonia (S)",null,59030,"wa",3532.8,null,null,11,null
+"Wickepin (S)",20,59100,"wa",3350.4,2210.1,null,28,null
+"Williams (S)",24,59170,"wa",3350.4,2210.1,null,35,null
+"Wiluna (S)",null,59250,"wa",null,null,null,null,null
+"Wongan-Ballidu (S)",49,59310,"wa",3785.9,2867.8,null,60,null
+"Woodanilling (S)",14,59320,"wa",null,3233.9,null,null,null
+"Wyalkatchem (S)",18,59330,"wa",3785.9,2867.8,null,22,null
+"Wyndham-East Kimberley (S)",128,59340,"wa",5344.2,2361.2,null,386,null
+"Yilgarn (S)",51,59360,"wa",3532.8,2678.8,null,64,null
+"York (S)",150,59370,"wa",3630.0,3563.8,null,140,null
+"Break O'Day (M)",null,60210,"tas",null,null,null,null,null
+"Brighton (M)",null,60410,"tas",null,null,null,null,null
+"Burnie (C)",null,60610,"tas",null,null,null,null,null
+"Barkly (S)",null,70420,"nt",null,null,null,null,null
+"Belyuen (S)",null,70540,"nt",null,null,null,null,null
+"Central Desert (S)",null,70620,"nt",null,null,null,null,null
+"Coomalie (S)",null,70700,"nt",null,null,null,null,null
+"Darwin (C)",null,71000,"nt",null,null,null,null,null
+"East Arnhem (S)",null,71300,"nt",null,null,null,null,null
+"Katherine (T)",null,72200,"nt",null,null,null,null,null
+"MacDonnell (S)",null,72330,"nt",null,null,null,null,null
+"Palmerston (C)",null,72800,"nt",null,null,null,null,null
+"Roper Gulf (S)",null,73600,"nt",null,null,null,null,null
+"Tiwi Islands (S)",null,74050,"nt",null,null,null,null,null
+"Victoria-Daly (S)",null,74500,"nt",null,null,null,null,null
+"Wagait (S)",null,74560,"nt",null,null,null,null,null
+"West Arnhem (S)",null,74660,"nt",null,null,null,null,null
+"Unincorporated NT",null,79399,"nt",null,null,null,null,null
+"Unincorporated ACT",null,89399,"act",null,null,null,null,null
