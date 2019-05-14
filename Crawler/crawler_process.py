@@ -1,4 +1,4 @@
-#-----------------------------------------------------------#
+#------------------------------------------------------------#
 # Program: crawler.py
 # Purpuose: A script to search and save tweets with options
 #           and process the tweet and store in couchDB
@@ -8,7 +8,7 @@
 #          Chenyao Wang 928359
 #          Danyang Wang 963747
 #          Yuming Zhang 973693
-#-----------------------------------------------------------#
+#------------------------------------------------------------#
 
 # Import Packages
 import json
