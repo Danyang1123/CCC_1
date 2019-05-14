@@ -1,0 +1,29 @@
+---
+- name: install tweepy
+  pip:
+    name: tweepy
+    executable: pip3
+- name: install python couchdb
+  pip:
+    name: couchdb
+    executable: pip3
+- name: install python vaderSentiment
+  pip:
+    name: vaderSentiment
+    executable: pip3
+- name: install python nltk
+  pip:
+    name: nltk
+    executable: pip3
+- name: install python tornadoweb
+  pip:
+    name: tornadoweb
+    executable: pip3
+- name: install python Numpy
+  pip:
+    name: numpy
+    executable: pip3
+- name: install python Spacy
+  pip:
+    name: spacy
+    executable: pip3

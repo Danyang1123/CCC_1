@@ -1,0 +1,55 @@
+---
+# Install packages
+- name: install git
+  become: yes
+  apt:
+      name: git
+      state: present
+      update_cache: yes
+- name: install python3-pip
+  become: yes
+  apt:
+      name: python3-pip
+      state: present
+      update_cache: yes
+- name: install python shapely
+  become: yes
+  apt:
+      name: python-shapely
+      state: present
+      update_cache: yes
+- name: install tweepy
+  environment: "{{ proxy_env }}"
+  pip:
+    name: tweepy
+    executable: pip3
+- name: install python couchdb
+  environment: "{{ proxy_env }}"
+  pip:
+    name: couchdb
+    executable: pip3
+- name: install python vaderSentiment
+  environment: "{{ proxy_env }}"
+  pip:
+    name: vaderSentiment
+    executable: pip3
+- name: install python nltk
+  environment: "{{ proxy_env }}"
+  pip:
+    name: nltk
+    executable: pip3
+- name: install python tornadoweb
+  environment: "{{ proxy_env }}"
+  pip:
+    name: tornadoweb
+    executable: pip3
+- name: install python Numpy
+  environment: "{{ proxy_env }}"
+  pip:
+    name: numpy
+    executable: pip3
+- name: install python Spacy
+  environment: "{{ proxy_env }}"
+  pip:
+    name: spacy
+    executable: pip3

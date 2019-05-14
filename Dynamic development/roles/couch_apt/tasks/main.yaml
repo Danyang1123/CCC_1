@@ -1,0 +1,51 @@
+---
+- name: Install the gpg key for couchDB
+  become: yes
+  apt_key:
+    url: "https://couchdb.apache.org/repo/bintray-pubkey.asc"
+    state: present
+
+- name: Install the couchDB repos
+  become: yes
+  apt_repository:
+    repo: "deb https://apache.bintray.com/couchdb-deb {{ ansible_distribution_release }} main"
+    state: present
+    update_cache: yes
+
+# - name: Install the couchDB
+#   apt:
+#     name: couchdb
+#     state: present
+- name: Install the couchDB
+  become: yes
+  shell: |
+    COUCHDB_PASSWORD={{ couchdb_admin_password }}
+    echo "couchdb couchdb/mode select clustered
+    couchdb couchdb/mode seen true
+    couchdb couchdb/nodename string {{ couchdb_node_name }}
+    couchdb couchdb/nodename seen true
+    couchdb couchdb/cookie string elmo
+    couchdb couchdb/cookie seen true
+    couchdb couchdb/bindaddress string 0.0.0.0
+    couchdb couchdb/bindaddress seen true
+    couchdb couchdb/adminpass password ${COUCHDB_PASSWORD}
+    couchdb couchdb/adminpass seen true
+    couchdb couchdb/adminpass_again password ${COUCHDB_PASSWORD}
+    couchdb couchdb/adminpass_again seen true" | sudo debconf-set-selections
+    DEBIAN_FRONTEND=noninteractive sudo apt-get install -y --force-yes couchdb
+
+- name: "Reset CouchDB local.ini"
+  become: yes
+  copy:
+    src: "{{ couch_upload_src }}"
+    dest: "{{ couch_upload_dest }}"
+    owner: couchdb
+    group: couchdb
+    mode: 0644
+    backup: yes
+
+- name: "Restart couchDB"
+  become: yes
+  service:
+    name: couchdb
+    state: restarted

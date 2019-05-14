@@ -1,0 +1,22 @@
+---
+# Install packages
+- name: install supervisor
+  become: yes
+  apt:
+      name: supervisor
+      state: present
+      update_cache: yes
+- name: "Upload supervisor config file 1"
+  copy:
+    src: "{{ supervisor_upload_src1 }}"
+    dest: "{{ supervisor_upload_dest }}"
+    backup: yes
+- name: "Upload supervisor config file 2"
+  copy:
+    src: "{{ supervisor_upload_src2 }}"
+    dest: "{{ supervisor_upload_dest }}"
+    backup: yes
+- name: "Restart supervisor"
+  service:
+    name: supervisor
+    state: restarted

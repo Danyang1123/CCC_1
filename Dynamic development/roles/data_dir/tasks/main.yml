@@ -1,0 +1,15 @@
+---
+- name: mkdir the data directory
+  become: true
+  file:
+    path: /data
+    state: directory
+    owner: ubuntu
+    group: ubuntu
+    mode: 0755
+- name: mount the volume
+  become: true
+  shell: |
+    mkfs.ext4 /dev/vdb
+    mount /dev/vdb /data
+    sleep 3

@@ -1,0 +1,10 @@
+---
+# Create an instance on NeCTAR
+# - name: Add instance to ansible hosts
+#   become: true
+#   lineinfile: dest=/etc/ansible/hosts regexp='.*{{ os_instance.openstack.public_v4 }}$' line='{{ os_instance.openstack.public_v4 }}' state=present
+#   when: os_instance.openstack is defined
+- name: Add instance to ansible hosts
+  add_host:
+    hostname: "{{ os_instance.openstack.public_v4 }}"
+    groups: nectar_servers
