@@ -1,5 +1,5 @@
 #-----------------------------------------------------------#
-# Program: preprocessor.py
+# Program: nlp.py
 # Purpuose: A script to preprocess tweets text
 # Group Member:
 #          Victor Ding 1000272
