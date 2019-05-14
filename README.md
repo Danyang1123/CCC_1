@@ -17,3 +17,4 @@
 
 172.26.38.210 (Replicated DataBase)
 
+172.26.37.230 (Tweet Harvester and Pre-Processor)
