@@ -1,0 +1,12 @@
+nginx_main_upload_enable: true
+nginx_main_upload_src: resources/nginx.conf
+nginx_main_upload_dest: /etc/nginx/
+nginx_http_upload_enable: true
+nginx_http_upload_src: resources/sites/*
+nginx_http_upload_dest: /etc/nginx/sites-enabled/
+
+# Put other web related vars here as well
+
+supervisor_upload_src1: resources/tornado.8000.conf
+supervisor_upload_src2: resources/tornado.8001.conf
+supervisor_upload_dest: /etc/supervisor/conf.d/

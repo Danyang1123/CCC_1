@@ -1,0 +1,5 @@
+---
+couchdb_admin_password: "set_password_here"
+couchdb_node_name: "couchdb@makina.domain.com"
+couch_upload_src: resources/local.ini
+couch_upload_dest: /opt/couchdb/etc/
