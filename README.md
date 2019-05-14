@@ -9,7 +9,11 @@
 - Yuming Zhang 973693
 
 ### Our project website is: http://172.26.38.164
+
 ### Instences
-172.26.38.164
-172.26.37.250
-172.26.38.210
+172.26.38.164 (Web Server + Load Balancer)
+
+172.26.37.250 (Database)
+
+172.26.38.210 (Replicated DataBase)
+
