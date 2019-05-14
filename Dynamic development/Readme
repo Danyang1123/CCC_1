@@ -1,1 +1,6 @@
-This is dynamic development using ansible to set up instances and couchdb.
+## This auto-deployment system is based on Ansible Playbook. 
+###  In this example, version 2.5 of Ansible is installed on a Ubuntu Linux, running on another NeCTAR instance.
+### To run the auto-deployment, all the user has to run ./run-nectar.sh, and the file is in the deployment folder.
+- The first part is the Instance Creation.
+- The second part is Installation and Running. 
+This part runs two Ansible plays on the instance to install and run different packages.
