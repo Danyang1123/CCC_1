@@ -154,7 +154,7 @@ def search_n_save(query='*',
 						try:
 							# Process Tweet
 							processed = preprocessor.preprocessor(tweet)
-
+							processed['id'] = tweet['id']
 							# See if Tweet has location
 							if processed['location'] == None:
 								continue
