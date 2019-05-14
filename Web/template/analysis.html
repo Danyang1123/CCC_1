@@ -1,0 +1,44 @@
+﻿{% extends "base.html" %}
+
+{% block content %}
+<main role="main" class="flex-shrink-0">
+    <div class="container">
+        <canvas id="chartid"></canvas>
+    </div>
+</main>
+<script type='text/javascript'>
+    function main(data) {
+        var AURIN = {
+            "Unemployment"   : { "Federal": 1.0000, "New South Wales": 1.0704, "Western Australia": 0.8160, "South Australia": 1.0880, "Northern Territory": 0.9976, "Tasmania": 1.2696, "Queensland": 1.1064, "Victoria": 0.9616, "Australian Capital Territory": 0.6896, },
+            "Personal Income": { "Federal": 1.0000, "New South Wales": 0.8872, "Western Australia": 1.0512, "South Australia": 0.8448, "Northern Territory": 1.1600, "Tasmania": 0.7928, "Queensland": 0.9240, "Victoria": 0.8896, "Australian Capital Territory": 1.4496, },
+            "Family Income"  : { "Federal": 1.0000, "New South Wales": 0.9320, "Western Australia": 1.0864, "South Australia": 0.8392, "Northern Territory": 1.1096, "Tasmania": 0.7592, "Queensland": 0.9168, "Victoria": 0.9208, "Australian Capital Territory": 1.4368, },
+            "Rent"           : { "Federal": 1.0000, "New South Wales": 1.0904, "Western Australia": 1.0904, "South Australia": 0.8000, "Northern Territory": 0.8144, "Tasmania": 0.7272, "Queensland": 1.0904, "Victoria": 1.0072, "Australian Capital Territory": 1.3808, },
+        };
+        var datasets = [];
+        function InsertToDataSets(label, dataset) {
+            var letters = '0123456789ABCDEF'.split('');
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            label = label.charAt(0).toUpperCase() + label.slice(1);
+            datasets.push({ label: label, data: dataset, backgroundColor: color/*'rgba(0,0,255,0.8)'*/ });
+        }
+        var regions = Object.keys(data);
+        var scores = [];
+        regions.forEach(function (region) {
+            scores.push(data[region]["{{current}}"] / data["Federal"]["{{current}}"]);
+        });
+        for (var key in AURIN) {
+            var reference = AURIN[key];
+            var tmp = [];
+            regions.forEach(function (region) {
+                tmp.push(reference[region]);
+            });
+            InsertToDataSets(key, tmp);
+        }
+        InsertToDataSets("{{current}}", scores);
+        var myChart = new Chart(document.getElementById("chartid"), { type: 'bar', data: { labels: regions, datasets: datasets }, options: { legend: { position: 'right' } } });
+    };
+</script>
+{% end %}

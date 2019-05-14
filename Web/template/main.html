@@ -1,0 +1,96 @@
+﻿{% extends "base.html" %}
+
+{% block content %}
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.6.0" crossorigin="anonymous"></script>
+<main role="main" class="flex-shrink-0">
+    <div class="container"></div>
+</main>
+<div id='mapid' style='width: 100vw; height: 100vh;'></div>
+<script type='text/javascript'>
+    function main(data) {
+        var map = L.map('mapid').setView([-28, 135], 4);
+
+        L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+            maxZoom: 18,
+            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+            id: 'mapbox.streets'
+        }).addTo(map);
+
+        // control that shows state info on hover
+        var info = L.control();
+
+        info.onAdd = function (map) {
+            this._div = L.DomUtil.create('div', 'info');
+            this._div.innerHTML = '<h2><span></span></h2><canvas width="300" height="300"></canvas><h5>Sentiment: <span></span><h5>';
+            this.update();
+            return this._div;
+        };
+
+        var sentiments = [];
+        for (var region in data) {
+            sentiments.push(data[region]["sentiment"]);
+        };
+        var sentiment_min = Math.min(...sentiments);
+        var sentiment_max = Math.max(...sentiments);
+        // get color depending on population density value
+        function getColor(name, opacity) {
+            var sentiment = data[name]["sentiment"];
+            var ratio = (sentiment - sentiment_min) / (sentiment_max - sentiment_min);
+            return 'hsla(' + Math.round(240.0 + 120.0 * ratio) + ',100%,50%,1.0)';
+        }
+
+        function style(feature) {
+            return {
+                weight: 2,
+                opacity: 1,
+                color: 'white',
+                dashArray: '3',
+                fillOpacity: 0.7,
+                fillColor: getColor(feature.properties.name)
+            };
+        }
+
+        info.update = function (props) {
+            var name = props ? props.name : "Federal";
+            var sins = ["pride", "greed", "lust", "envy", "gluttony", "wrath", "sloth"];
+            var scores = [];
+            sins.forEach(function (sin) { scores.push(data[name][sin]); });
+            $(this._div).children('h2').children('span').text(name);
+            $(this._div).children('h5').children('span').text(data[name]["sentiment"].toFixed(4));
+            $(this._div).children('h5').children('span').css('color', getColor(name));
+            var ctx = $(this._div).children('canvas')[0].getContext('2d');
+            var myChart = new Chart(ctx, {
+                type: 'radar',
+                data: {
+                    labels: sins,
+                    datasets: [{ data: scores, borderWidth: 1 }]
+                },
+                plugins: [ChartDataLabels],
+                options: {
+                    legend: { display: false },
+                    scale: { ticks: { min: 0.2, max: 0.4, display: false } },
+                    plugins: { datalabels: { formatter: function (value, context) { return value.toFixed(4); } } }
+                }
+            });
+        };
+
+        info.addTo(map);
+        var geojsonLayer;
+
+        function onEachFeature(feature, layer) {
+            layer.on({
+                mouseover: function (e) {
+                    var layer = e.target;
+                    layer.setStyle({ weight: 5, color: '#666', dashArray: '', fillOpacity: 0.7 });
+                    if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) { layer.bringToFront(); }
+                    info.update(layer.feature.properties);
+                },
+                mouseout: function (e) { geojsonLayer.resetStyle(e.target); info.update(); },
+                click: function (e) { map.fitBounds(e.target.getBounds()); }
+            });
+        }
+        geojsonLayer = new L.GeoJSON.AJAX("AU.json", { style: style, onEachFeature: onEachFeature });
+        geojsonLayer.addTo(map);
+    };
+</script>
+{% end %}

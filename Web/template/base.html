@@ -1,0 +1,84 @@
+﻿<!doctype html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>COMP90024 - University of Melbourne</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" crossorigin="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.css" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" crossorigin=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+    <style>
+        main > .container {
+            padding: 50px 15px 0;
+        }
+
+        .footer {
+            background-color: #f5f5f5;
+        }
+
+            .footer > .container {
+                padding-right: 15px;
+                padding-left: 15px;
+            }
+
+        .info {
+            padding: 6px 8px;
+            font: 14px/16px Arial, Helvetica, sans-serif;
+            background: rgba(255,255,255,0.8);
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            border-radius: 5px;
+        }
+
+            .info h4 {
+                margin: 0 0 5px;
+                color: #777;
+            }
+
+        .nav-link {
+            text-transform: capitalize;
+        }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.nav-link').each(function (index, item) {
+                if ($(item).text() == "{{current}}") {
+                    $(item).parent().addClass('active');
+                }
+            });
+            $.getJSON('/data.json', function (data) { main(data); });
+        });
+    </script>
+</head>
+<body class="d-flex flex-column h-100">
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="/">COMP90024 Team 22</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="/">overview</a></li>
+                    {% for keyword in keywords %}
+                    <li class="nav-item"><a class="nav-link" href="/analysis/{{keyword}}">{{keyword}}</a></li>
+                    {% end %}
+                </ul>
+            </div>
+        </nav>
+    </header>
+    {% block content %}
+    {% end %}
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <p>&copy;2019 Victor Ding, Zhuolin He, Chenyao Wang, Danyang Wang, and Yuming Zhang. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

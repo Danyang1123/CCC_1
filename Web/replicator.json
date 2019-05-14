@@ -1,0 +1,25 @@
+{
+  "user_ctx": {
+    "name": "admin",
+    "roles": [
+      "_admin",
+      "_reader",
+      "_writer"
+    ]
+  },
+  "source": {
+    "url": "http://172.26.37.250:5984/processed",
+    "headers": {
+      "Authorization": "Basic YWRtaW46MTIzNDU2"
+    }
+  },
+  "target": {
+    "url": "http://172.26.37.201:5984/processed",
+    "headers": {
+      "Authorization": "Basic YWRtaW46MTIzNDU2"
+    }
+  },
+  "create_target": true,
+  "continuous": true,
+  "owner": "admin"
+}
