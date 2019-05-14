@@ -1,4 +1,4 @@
-#-----------------------------------------------------------#
+#----------------------------------------------------------#
 # Program: lauch_api.py
 # Purpuose: A script to lauch twitter developer api
 # Group Member:
@@ -7,7 +7,7 @@
 #          Chenyao Wang 928359
 #          Danyang Wang 963747
 #          Yuming Zhang 973693
-#-----------------------------------------------------------#
+#----------------------------------------------------------#
 
 import tweepy
 from tweepy import OAuthHandler
