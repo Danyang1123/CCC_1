@@ -1,0 +1,43 @@
+# Create instance
+- hosts: localhost
+  vars_files:
+    - host_vars/nectar_webserver.yaml
+    - install_vars/proxy_env.yaml
+  gather_facts: true
+
+  roles:
+    # add proxy env to this machine as well
+    - role: proxy_env
+    # openstack stuff
+    - role: openstack-common
+    - role: openstack-images
+    - role: openstack-volume
+    - role: openstack-security-group
+    - role: openstack-instance
+    # - role: openstack-volume-snapshot
+    - role: wait-for-port
+    - role: add-instance-to-ansible-hosts
+
+# Install packages and CouchDB
+- hosts: nectar_servers
+  gather_facts: true
+  vars_files:
+    - install_vars/proxy_env.yaml
+  vars:
+    ansible_ssh_private_key_file: resources/nectarssh.key
+  roles:
+    - proxy_env
+    - install_pkg
+    - data_dir
+
+# Install nginx
+- hosts: nectar_servers
+  gather_facts: true
+  become: true
+  vars_files:
+    - install_vars/web.yaml
+  vars:
+    ansible_ssh_private_key_file: resources/nectarssh.key
+  roles:
+    - ansible-role-nginx
+    - install_web
